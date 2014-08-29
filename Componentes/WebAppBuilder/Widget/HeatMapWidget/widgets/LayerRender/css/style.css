@@ -1,0 +1,31 @@
+.lyrsup {
+    margin-top: 25px;
+}
+
+.menulyr {
+    left: 0;
+    list-style: none;
+    width: 158px;
+    margin: 0 auto;
+}
+
+.menulyr li {
+    display: inline;
+}
+
+.menulyr li a {
+    padding: 15px 30px;
+    display: inline-block;
+    background-color:#EDEDED;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+.menulyr li a:hover {
+    background-color:#D6D6D6;
+    border-bottom:3px solid #000;
+}
+
+.wait {
+    display: none;
+}

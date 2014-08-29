@@ -1,0 +1,10 @@
+{
+  "name": "LayerRender",
+  "label": "Layer Render",
+  "platform": "HTML",
+  "version": "1.0.0",
+  "author": "Imagem Sistemas de Informação",
+  "description": "Visualizar as especialidades da UBS",
+  "copyright": "Imagem 2014",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}
