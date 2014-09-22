@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Abel|PT+Sans+Narrow|PT+Sans+Narrow|Open+Sans+Condensed:300|Roboto+Condensed);
+
 @charset "UTF-8";
 .left {
     float: left
@@ -1240,8 +1242,11 @@ font-style:normal
     box-sizing: border-box;
     float: left;
     padding: 0 0.5em;
-    width: 25%;
+    width: 22%;
     margin-top: 0em
+}
+#footer nav.contact {
+    width: 15%;
 }
 @media screen and (max-width: 768px) {
     #footer nav {
@@ -1296,9 +1301,18 @@ font-style:normal
     width: 120px;
     height: 120px;
     text-indent: -9999px;
-    margin: 0 auto 1em;
+    margin: 0 auto 0;
     display: block;
-    border: 6px solid white
+    border: 3px solid white
+}
+#imagem-logo-footer {
+    background: transparent url(/img/img-footer-social.jpg) no-repeat bottom right;
+    width: 120px;
+    height: 120px;
+    text-indent: -9999px;
+    margin: 0 auto 0;
+    display: block;
+    border: 3px solid white
 }
 #footer-social-nav {
     font-size: 1.5em;
@@ -1333,7 +1347,8 @@ font-style:normal
     width: 100%;
     margin-top: 0em;
     padding-bottom: 0em;
-    clear: both
+    clear: both;
+    text-align: center
 }
 #footer-legal a {
     color: inherit
